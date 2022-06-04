@@ -26,7 +26,8 @@ Must have grocery items in this shape
   units: '',
   quantity: 0,
   isPurchased: false
-}```
+}
+```
 
 - Make an array of 3 objects using the above shape and render the item, quantity and units (12 pack, 1lb, 2 liters, etc.)
 - Make inputs so that new items can be added
