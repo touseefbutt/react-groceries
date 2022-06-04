@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+.storename{
+    text-align: center;
+    color: orange;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+.list {
+    border: 2px solid coral;
+    padding: 1em;
+    margin: 1em;
+    flex-basis: 30%;
+    text-align: center;
+    box-shadow:5px 6px 6px rgb(205, 202, 201);
+    
+}
+
+span {
+    color: orange;
+}
+
+button{
+    padding: 10px;
+    background-color: orange;
+    border: 2px solid hwb(39 5% 17%);
+    border-radius: 7px;
+    font-size: 15px;
+    color: rgb(139, 87, 3);
+}
+form{
+    display: flexbox;
+}
+input{
+    padding: 10px;
+    color: coral;
+    width:20%;
+    border-radius: 4px;
+    font-size: 15PX;
+    outline: coral;
+    border: 2px solid coral;
+}
